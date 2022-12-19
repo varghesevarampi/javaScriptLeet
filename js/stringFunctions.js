@@ -17,7 +17,7 @@ if(a<b){
 
 console.log(a.charAt(2)); // return character at index
 console.log(a.concat(' ','is',' ',b)); //conctaenates words
-console.log(a.endsWith('r'))
+console.log(a.endsWith('r')) // and startswith
 // includes checks for character or word in a sentence
 console.log(a.includes(a)) //true
 console.log(sentence.includes('fox')) // true
@@ -58,8 +58,6 @@ const reg = /[A-Z]/;
 const reDot = /[.]/;
 console.log(str.search(reg)); // returns 4, which is the index of the first capital letter "J"
 console.log(str.search(reDot)); // returns -1 cannot find '.' dot punctuation
-
-
 
 const str1 = "The morning is upon us."; // The length of str1 is 23.
 const str2 = str1.slice(1, 8);
